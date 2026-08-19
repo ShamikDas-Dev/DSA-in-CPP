@@ -23,9 +23,7 @@ void selectionSort(int arr[], int size)
             }
         }
 
-        int temp = arr[smallIndex];
-        arr[smallIndex] = arr[i];
-        arr[i] = temp;
+        swap(arr[i], arr[smallIndex]);
     }
 }
 
